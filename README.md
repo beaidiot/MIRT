@@ -2,7 +2,7 @@
 ## 文件说明
 ### BooleanRetrieve.py
 实现布尔查询
-### VectorSpaceModel.py：
+### VectorSpaceModel.py
 实现VSM向量空间模型
 ### documents_en：
 模型文档集
