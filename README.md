@@ -4,7 +4,7 @@
 简单实现布尔查询
 ### VectorSpaceModel.py
 简单实现VSM向量空间模型
-### documents_en：
+### documents_en
 模型文档集
 ## 开发环境
 ### Python 3.7
