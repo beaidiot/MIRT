@@ -1,6 +1,6 @@
 # 现代信息检索课程（MIRT） 大作业
 ## 文件说明
-### BooleanRetrieve.py
+### BoolRetrieve.py
 实现布尔查询
 ### VectorSpaceModel.py
 实现VSM向量空间模型
