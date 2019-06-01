@@ -19,7 +19,9 @@ def document_scanner(filePath):
         for doc_Id, doc_Name in enumerate(os.listdir(filePath), start=1):
             f = open(filePath + doc_Name)
             # 按目录下文档顺序构建doc_Id
-            documents_dic.setdefault(doc_Id, [doc_Name, f])
+            documents_dic.setdefault(doc_Id, [doc_Name, f.read()])
+            # 关闭文件流
+            f.close()
     except FileNotFoundError:
         print("ERROR：文档集路径有误！")
         exit(-1)
@@ -34,15 +36,8 @@ def text2words(text):
     :param text: 文档
     :return: 词项列表
     """
-    words = []
-    for line in text:
-        # 1、将文本单词转换成小写
-        # 2、利用正则表达式过滤掉符号
-        # 3、以空格符分割单词形成词项列表
-        words.extend(re.sub(r'[^\w\s]', '', line.lower()).split(' '))
-    # 关闭文件流
-    text.close()
-    # 返回文档的单词列表
+    words = re.sub(r'[^\w\s]', '', text.lower()).split(' ')
+
     return words
 
 
@@ -53,14 +48,15 @@ def inverted_index(documents):
     :param documents: 文档集
     :return invert_index: 倒排索引
     """
+
     # 初始化倒排索引：{terms：[doc_ID]}
     invert_index = {}
     # 循环处理每个文档
     for doc_ID, doc in documents.items():
-        # 文档-词项列表转换
-        terms_list = text2words(doc[1])
+        # 文档词项化
+        term_list = text2words(doc[1])
         # 将词项加入倒排索引
-        for term in terms_list:
+        for term in term_list:
             # 如果倒排索引无词项term，则加入倒排索引中
             if term not in invert_index.keys():
                 invert_index[term] = [doc_ID]
