@@ -98,6 +98,7 @@ def create_idf(invertedIndex, vocabulary):
             df.setdefault(word, len(invertedIndex[word]))
         else:
             df.setdefault(word, 0.0)
+
     # 计算idf
     for word, word_df in df.items():
         if df[word] != 0.0:
@@ -123,6 +124,7 @@ def create_Vector_TF(tf, vocabulary):
 def create_Vector_TF_IDF(tf, idf, vocabulary):
     v = []
     for word in vocabulary:
+        # 计算tf—idf权重
         if tf[word] != 0.0:
             v.append((1.0 + math.log(tf[word], 10)) * idf[word])
         else:
@@ -155,7 +157,6 @@ def vsm_base_TF(query, documents, vocabulary):
 
     # 查询语句向量化
     q_vector = create_Vector_TF(q_tf, vocabulary)
-
     # print('查询向量：', q_vector) code for test
 
     # 对每个文档进行词项化
@@ -234,7 +235,7 @@ def VSM():
     # 基于词项频率tf的VSM模型
     vsm_base_TF(query, documents, vocabulary)
 
-    # 基于tf-idf的VSM模型
+    # 基于tf-idf权重的VSM模型
     vsm_base_TF_IDF(query, documents, vocabulary)
 
 

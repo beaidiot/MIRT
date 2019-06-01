@@ -31,13 +31,7 @@ def document_scanner(filePath):
 
 # 文本--->单词列表
 def text2words(text):
-    """
-    单个文档生成词项列表
-    :param text: 文档
-    :return: 词项列表
-    """
     words = re.sub(r'[^\w\s]', '', text.lower()).split(' ')
-
     return words
 
 
@@ -48,7 +42,6 @@ def inverted_index(documents):
     :param documents: 文档集
     :return invert_index: 倒排索引
     """
-
     # 初始化倒排索引：{terms：[doc_ID]}
     invert_index = {}
     # 循环处理每个文档
