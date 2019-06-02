@@ -4,19 +4,11 @@ import os
 
 # 扫描目录下文档集
 def document_scanner(filePath):
-    """
-    扫描目录下所有文档
-    文档映射字典：{doc_Id:[doc_Name, doc]}
-    字典字段含义：
-    doc_Id：文档ID
-    doc_Name：文档名
-    doc：文档文件
-    :param filePath:文档集目录
-    :return documents_dic:文档映射字典
-    """
+    # 文档映射字典
     documents_dic = {}
     try:
         for doc_Id, doc_Name in enumerate(os.listdir(filePath), start=1):
+            # 打开文件
             f = open(filePath + doc_Name)
             # 按目录下文档顺序构建doc_Id
             documents_dic.setdefault(doc_Id, [doc_Name, f.read()])
