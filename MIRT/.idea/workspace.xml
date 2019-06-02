@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab880dfa-7256-4c5e-b600-33af6f078139" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/BoolRetrieve.py" beforeDir="false" afterPath="$PROJECT_DIR$/BoolRetrieve.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VectorSpaceModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/VectorSpaceModel.py" afterDir="false" />
-    </list>
+    <list default="true" id="ab880dfa-7256-4c5e-b600-33af6f078139" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,20 +13,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/VectorSpaceModel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-289">
-              <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BoolRetrieve.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-18">
-              <caret line="34" column="16" lean-forward="true" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+            <state relative-caret-position="33">
+              <caret line="197" column="65" lean-forward="true" selection-start-line="197" selection-start-column="65" selection-end-line="197" selection-end-column="65" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -50,16 +35,7 @@
         <entry file="file://$PROJECT_DIR$/documents_en/The Little Match-Girl 2">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="77" selection-start-column="74" selection-end-column="77" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/documents_en/The Little Match-Girl 3">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="3" selection-end-column="3" />
+              <caret column="31" selection-start-column="31" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -90,8 +66,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/BooleanRetrieve.py" />
-        <option value="$PROJECT_DIR$/BoolRetrieve.py" />
         <option value="$PROJECT_DIR$/VectorSpaceModel.py" />
+        <option value="$PROJECT_DIR$/BoolRetrieve.py" />
+        <option value="$PROJECT_DIR$/documents_en/The Little Match-Girl 3" />
       </list>
     </option>
   </component>
@@ -214,7 +191,7 @@
       <updated>1559131668635</updated>
       <workItem from="1559131672250" duration="700000" />
       <workItem from="1559134479675" duration="167000" />
-      <workItem from="1559357536748" duration="1438000" />
+      <workItem from="1559357536748" duration="10817000" />
     </task>
     <task id="LOCAL-00001" summary="update functions">
       <created>1559358347703</created>
@@ -223,11 +200,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559358347703</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update functions">
+      <created>1559455148552</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1559455148552</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2305000" />
+    <option name="totallyTimeSpent" value="11684000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -240,9 +224,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16414523" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -314,33 +297,12 @@
     <option name="LAST_COMMIT_MESSAGE" value="update functions" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MIRT$BoolRetrieve.coverage" NAME="BoolRetrieve Coverage Results" MODIFIED="1559358227294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MIRT$VectorSpaceModel.coverage" NAME="VectorSpaceModel Coverage Results" MODIFIED="1559134583074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MIRT$BoolRetrieve.coverage" NAME="BoolRetrieve Coverage Results" MODIFIED="1559375762328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MIRT$VectorSpaceModel.coverage" NAME="VectorSpaceModel Coverage Results" MODIFIED="1559372262897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test.py" />
     <entry file="file://$PROJECT_DIR$/BooleanRetrieve.py" />
-    <entry file="file://$PROJECT_DIR$/documents_en/The Little Match-Girl 1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="730" selection-start-column="727" selection-end-column="730" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/documents_en/The Little Match-Girl 2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="77" selection-start-column="74" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/documents_en/The Little Match-Girl 3">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/documents_en/The Little Match-Girl 4">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -348,10 +310,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/documents_en/The Little Match-Girl 1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="730" selection-start-column="727" selection-end-column="730" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documents_en/The Little Match-Girl 3">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="318" lean-forward="true" selection-start-column="318" selection-end-column="318" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documents_en/The Little Match-Girl 2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BoolRetrieve.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18">
-          <caret line="34" column="16" lean-forward="true" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+        <state relative-caret-position="-493">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
@@ -360,8 +343,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/VectorSpaceModel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-289">
-          <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+        <state relative-caret-position="33">
+          <caret line="197" column="65" lean-forward="true" selection-start-line="197" selection-start-column="65" selection-end-line="197" selection-end-column="65" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
